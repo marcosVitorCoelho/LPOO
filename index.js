@@ -5,7 +5,7 @@ class Cliente {
 
 class ContaCorrente {
   agencia
-  #saldo = 0
+  /* #saldo = 0 */
   _saldo = 0
 
   sacar(valor) {
@@ -20,7 +20,6 @@ class ContaCorrente {
   depositar(valor) {
     if (valor > 0) {
       this._saldo += valor
-      console.log(this._saldo)
     }
   }
 
